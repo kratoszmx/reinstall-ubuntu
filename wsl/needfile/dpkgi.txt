@@ -1,3 +1,0 @@
-sudo dpkg -i code_1.80.1-1689183569_amd64.deb google-chrome-stable_current_amd64.deb baidunetdisk_4.17.7_amd64.deb TencentMeeting_0300000000_3.15.0.402_x86_64_default.publish.deb wps-office_11.1.0.11698_amd64.deb PgyEnterprise_Ubuntu_1.2.0.52122_x86_64.deb VNC-Viewer-7.1.0-Linux-x64.deb steam_latest.deb linuxqq_3.1.2-13107_amd64.deb weixin_2.1.4_amd64.deb netease-cloud-music_1.2.1_amd64.deb Feishu-linux_x64-6.5.11.deb
-sudo dpkg -i sogoupinyin_4.2.1.145_amd64.deb Minecraft.deb
-
