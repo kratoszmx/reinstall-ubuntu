@@ -18,6 +18,3 @@ sudo apt install language-pack-zh-hant
 sudo apt install fcitx dbus-x11 im-config
 sudo dpkg -i sogoupinyin_4.2.1.145_amd64.deb
 sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 libgsettings-qt1 libpulse0 libxss1
-
-# https://blog.csdn.net/old_power/article/details/145009713
-# https://mmmhj2.github.io/%E9%97%B2%E7%AC%94/2022/03/23/hardware-acceleration-for-wsl2.html
