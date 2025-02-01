@@ -17,4 +17,4 @@ sudo apt install language-pack-zh-hant
 
 sudo apt install fcitx dbus-x11 im-config
 sudo dpkg -i sogoupinyin_4.2.1.145_amd64.deb
-sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 libgsettings-qt1 libpulse0
+sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 libgsettings-qt1 libpulse0 libxss1
