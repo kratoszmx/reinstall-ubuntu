@@ -105,7 +105,8 @@ export DefaultIMModule=fcitx
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias chrome='fcitx-autostart &>/dev/null && google-chrome --force-device-scale-factor=1.75'
+# alias chrome='fcitx-autostart &>/dev/null && google-chrome --force-device-scale-factor=1.75'
+alias chrome='google-chrome --force-device-scale-factor=1.75'
 
 # proxy
 # export ALL_PROXY="http://$host_ip:7890"
@@ -126,5 +127,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 echo 'Note: quant env activated!'
-echo
+fcitx-autostart
 conda activate quant
