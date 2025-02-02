@@ -5,7 +5,7 @@ cd ~/Downloads;
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
 sudo apt -f install;
 sudo dpkg -i google-chrome-stable_current_amd64.deb;
-sudo apt install language-pack-zh-hant
+sudo apt install language-pack-zh-hant upower
 
 # sudo vim /etc/fonts/local.conf
 # <?xml version="1.0"?>
