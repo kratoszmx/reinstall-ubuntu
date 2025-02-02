@@ -4,6 +4,7 @@ mkdir ~/.local;
 mkdir ~/.local/lib;
 mkdir ~/.local/bin;
 mkdir ~/.local/share;
+mkdir ~/.local/local;
 mkdir ~/Trash;
 
 # cd ~;

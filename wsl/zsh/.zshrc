@@ -107,37 +107,25 @@ export DefaultIMModule=fcitx
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias chrome='fcitx-autostart &>/dev/null && google-chrome --force-device-scale-factor=1.75'
 
-
-#proxy
-# 系统默认模式
-# host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+# proxy
 # export ALL_PROXY="http://$host_ip:7890"
-# 手机热点
-# export ALL_PROXY="http://192.168.43.100:7890"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/kratoschu/.local/local/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/zmx/.local/local/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/kratoschu/.local/local/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/kratoschu/.local/local/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/zmx/.local/local/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/zmx/.local/local/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/kratoschu/.local/local/miniconda3/bin:$PATH"
+        export PATH="/home/zmx/.local/local/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
+# <<< conda initialize <<<
 
 echo
 echo 'Note: quant env activated!'
-echo 'Warning: chmod 0700 /run/user/1000/ DONE!!!'
 echo
 conda activate quant
-chmod 0700 /run/user/1000/
-
-# <<< conda initialize <<<
-
-export LONGPORT_APP_KEY=b350da11bb45bef4d55f011d0cf21bea
-export LONGPORT_APP_SECRET=7d81124b5ca4c5bf9dc9bc11863ea771019377596a93a7974f1955e521aa3500
-export LONGPORT_ACCESS_TOKEN=m_eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb25nYnJpZGdlIiwic3ViIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzE3ODgzNDA3LCJpYXQiOjE3MTAxMDc0MDgsImFrIjoiYjM1MGRhMTFiYjQ1YmVmNGQ1NWYwMTFkMGNmMjFiZWEiLCJhYWlkIjoyMDI5MjQ2NiwiYWMiOiJsYl9wYXBlcnRyYWRpbmciLCJtaWQiOjEyNTg0NjIxLCJzaWQiOiJBRG1UWWw1MERWTFNPRHpSdS9La1pBPT0iLCJibCI6MywidWwiOjAsImlrIjoibGJfcGFwZXJ0cmFkaW5nXzIwMjkyNDY2In0.OGCNUeSIRBg02l31Q9asCwJYqzlZo8wWUZz4LJXN-Tct1dWdougmcsAZwZ1orPJuBoBvSfVMib5s603zNxJlU2pvDq87xo2qVf6s5yGMxTrxI_nEvS55UbNu1ADjqpjaX6h-KCD15zCOO50n1De2hVWHv9rqN5I2hbRaPu0mTYvw2Sn719iK8Ci1EjPSC9ZXzfQBFaKmcA1wkoW5D5pGtbT8_BVFoDCgWIhiOwFGnrgZi46TGSPkgXSOCX0d54V13GE6ZfkIkOsuc5vJUOdJga7E3mIEmNOOTg9RG0LmEHCJjst9Y5Zi4L9UdxS5SBCYH66cjp5I0Q5D_3FPWaaqAT5tP6Oxm1s1rHhDhnfvCH274ek_KN3GSlXZDdvuDxXMYRs9DMw8ABpt2_IrgjDKkDbh77U7YQHXZOhZl8Z_2RqSKp-FbFsZ2PYovlCnOCJp5ZOO7R4vTJfAdYONy8b_fxlGKJXnxbrNyr4ygunnPeST04xdFw_8D9oulSsyaly-SBLv8njxsJl-5zOrW559hoByF3PsxPOmfLTWCpDbXSaObzvzJjJpf6XhoXq46OQrsvVHKi2QhaLZPnvHBSCxMO27Rsy_rFS2LJ7_XNDCW-OieCxzQOMZ9zh9jNNpKJQeJ-jTUV_Lx2zqmWWC81zs3xNYo5qbVdF1GEJtZDzVtls
-

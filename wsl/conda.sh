@@ -9,3 +9,9 @@ conda update --all
 
 pip3 install pip-review
 pip-review --local --interactive
+
+conda create -n quant python=3.13
+conda activate quant
+
+pip3 install pip-review
+pip-review --local --interactive
