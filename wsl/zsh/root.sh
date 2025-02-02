@@ -3,8 +3,8 @@
 clear;
 env|grep zmx
 export USER=root;
-export ZDOTDIR=root;
-export USER_ZDOTDIR=root;
+export ZDOTDIR=/root;
+export USER_ZDOTDIR=/root;
 env|grep root
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
