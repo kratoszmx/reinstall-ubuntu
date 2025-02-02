@@ -125,7 +125,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-echo
 echo 'Note: quant env activated!'
 echo
 conda activate quant
