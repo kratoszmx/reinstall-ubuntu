@@ -1,6 +1,6 @@
 # !/bin/bash
 
-pip3 install pip-review
+pip3 install pip-review pipdeptree
 pip-review --local --interactive
 
 
