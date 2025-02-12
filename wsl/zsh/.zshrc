@@ -1,5 +1,14 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+REMOVE_PATHS=(
+    "/mnt/f/envs/miniconda/Scripts"
+    "/mnt/f/envs/miniconda"
+    "/mnt/f/envs/miniconda/Library/bin"
+    "/mnt/f/envs/miniconda/Library/usr/bin"
+    "/mnt/f/envs/miniconda/Library/mingw-w64/bin"
+    "/mnt/c/Program Files/Bandizip"
+)
+export PATH=$(echo "$PATH" | tr ':' '\n' | grep -v -F -x -f <(printf "%s\n" "${REMOVE_PATHS[@]}") | tr '\n' ':' | sed 's/:$//')
+
 export TERM=xterm-256color
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -75,7 +84,6 @@ plugins=(git z zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="$HOME/.local/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -125,6 +133,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+export PATH="$HOME/.local/bin:$PATH"
 
 echo 'Note: quant env activated!'
 conda activate quant
