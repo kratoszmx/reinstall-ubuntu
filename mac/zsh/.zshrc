@@ -110,10 +110,10 @@ export MANPATH="/usr/local/man:$MANPATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # proxy
-# export ALL_PROXY="http://$host_ip:7890"
-export https_proxy=http://127.0.0.1:7890
-export http_proxy=http://127.0.0.1:7890
-export all_proxy=socks5://127.0.0.1:7890
+# export ALL_PROXY="http://$host_ip:7897"
+export https_proxy=http://127.0.0.1:7897
+export http_proxy=http://127.0.0.1:7897
+export all_proxy=socks5://127.0.0.1:7897
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
