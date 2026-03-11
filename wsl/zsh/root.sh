@@ -14,3 +14,4 @@ cp -r /home/zmx/.oh-my-zsh/custom ~/.oh-my-zsh;
 cp /home/zmx/.zshrc .
 # chown root:root ~/.oh-my-zsh/custom 
 vim ~/.zshrc
+# delete conda part in zshrc

@@ -117,7 +117,9 @@ alias chrome='fcitx-autostart &>/dev/null && google-chrome --force-device-scale-
 # alias chrome='google-chrome --force-device-scale-factor=1.75'
 
 # proxy
-# export ALL_PROXY="http://$host_ip:7890"
+export https_proxy=http://127.0.0.1:7897
+export http_proxy=http://127.0.0.1:7897
+export all_proxy=socks5://127.0.0.1:7897
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
