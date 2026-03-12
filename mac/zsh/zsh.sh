@@ -11,4 +11,5 @@ git clone https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git
 cd oh-my-zsh-powerline-theme;
 # ./install_in_omz.sh;
 cp powerline.zsh-theme ~/.oh-my-zsh/custom/themes;
+
 cp .zshrc ~
