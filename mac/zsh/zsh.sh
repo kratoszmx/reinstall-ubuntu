@@ -13,3 +13,4 @@ cd oh-my-zsh-powerline-theme;
 cp powerline.zsh-theme ~/.oh-my-zsh/custom/themes;
 
 cp .zshrc ~
+cp history_protection.zsh $HOME/.config/zsh

@@ -53,3 +53,5 @@ unset __conda_setup
 
 conda activate quant
 echo 'Note: quant env activated!'
+
+source "$HOME/.config/zsh/history_protection.zsh"
