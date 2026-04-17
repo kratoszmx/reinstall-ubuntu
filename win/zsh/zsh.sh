@@ -1,4 +1,5 @@
 # !/bin/bash
+# https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64
 cp zsh-5.9-5-x86_64.pkg/* /
 bash
 zsh
