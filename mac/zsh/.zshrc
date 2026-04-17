@@ -30,6 +30,7 @@ setopt HIST_REDUCE_BLANKS
 setopt SHARE_HISTORY
 
 source "$ZSH/oh-my-zsh.sh"
+source "$HOME/.config/zsh/history_protection.zsh"
 
 # proxy
 # export https_proxy=http://127.0.0.1:7897
@@ -53,5 +54,3 @@ unset __conda_setup
 
 conda activate quant
 echo 'Note: quant env activated!'
-
-source "$HOME/.config/zsh/history_protection.zsh"

@@ -28,6 +28,7 @@ setopt HIST_REDUCE_BLANKS
 setopt SHARE_HISTORY
 
 source "$ZSH/oh-my-zsh.sh"
+source "$HOME/.openclaw/completions/openclaw.zsh"
 
 # proxy
 # export https_proxy=http://127.0.0.1:7897
@@ -56,4 +57,3 @@ source "$HOME/.config/zsh/history_protection.zsh"
 
 # claw
 export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
-source "$HOME/.openclaw/completions/openclaw.zsh"
