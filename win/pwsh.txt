@@ -2,8 +2,5 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 scoop --version
 
-scoop bucket add extras
-scoop install git
-
 reg import "C:\Users\zmxde\scoop\apps\git\current\install-associations.reg"
 reg import "C:\Users\zmxde\scoop\apps\git\current\install-context.reg"
